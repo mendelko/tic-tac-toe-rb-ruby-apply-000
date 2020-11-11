@@ -126,3 +126,9 @@ def winner(board)
       return board[won?(board)[0]]
    end
 end
+
+
+def play(board)
+  while !over?(board) && !won?(board) && !draw?(board) 
+    turn(board)
+  end
