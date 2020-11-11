@@ -127,6 +127,7 @@ def winner(board)
    end
 end
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def play(board)
   while !over?(board) && !won?(board) && !draw?(board)
